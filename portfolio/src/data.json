@@ -1,9 +1,9 @@
 {
     "en": {
       "heroSection": {
-        "greeting": "Hi!",
+        "greeting": "Hi! 👋",
         "intro": "I'm Hande. I am a frontend developer. I can craft solid and scalable frontend products. Let's meet!",
-        "profileImage": "",
+        "profileImage": "#",
         "socials": [
           {
             "logo": "LinkedIn.svg",
@@ -87,7 +87,7 @@
     },
     "tr": {
       "heroSection": {
-        "greeting": "Merhaba!",
+        "greeting": "Merhaba! 👋",
         "intro": "Ben Hande. frontend geliştiriciyim. Sağlam ve ölçeklenebilir ön yüz ürünleri geliştirebilirim. Tanışalım!",
         "profileImage": "",
         "socials": [
