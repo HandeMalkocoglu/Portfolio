@@ -1,6 +1,7 @@
 import Header from "../src/components/Header";
 import Hero from "../src/components/Hero";
 import Skills from "../src/components/Skills";
+import Footer from "./components/Footer";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import { LanguageProvider } from "./context/LanguageContext"; 
@@ -14,6 +15,7 @@ function App() {
         <Skills />
         <Profile/>
         <Projects/>
+        <Footer/>
       </div>
     </LanguageProvider>
   );

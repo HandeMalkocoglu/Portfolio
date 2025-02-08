@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { LanguageContext } from "../context/LanguageContext"; // Dil context'ini içe aktar
+import { LanguageContext } from "../context/LanguageContext"; 
 import data from "../data.json";
 
 const Projects = () => {
-  const { language } = useContext(LanguageContext); // Seçili dili al
-  const projects = data[language].projects; // Seçili dile göre proje verilerini al
+  const { language } = useContext(LanguageContext); 
+  const projects = data[language].projects; 
 
   return (
     <section id="projects" className="p-6 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
