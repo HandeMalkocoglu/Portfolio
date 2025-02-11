@@ -3,7 +3,7 @@
       "heroSection": {
         "greeting": "Hi! 👋",
         "intro": "I'm Hande. I am a frontend developer. I can craft solid and scalable frontend products. Let's meet!",
-        "profileImage": "#",
+        "profileImage": "profileImage.jpg",
         "socials": [
           {
             "logo": "LinkedIn.svg",
@@ -58,7 +58,7 @@
           "education": "Bayburt University-Civil Engineering",
           "role": "frontend"
         },
-        "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illu  In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore.  Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
+        "aboutme": "I am an aspiring front-end developer with a growth mindset to gain new skills and constantly improve myself with new challenges.  After working as a civil engineer for 4 years and as an accountant for 3 years, I decided to realize my dream of becoming a software developer and improving myself in the frontend field by completing the 3-month intensive Workintech front-end development program."
       },
       "projects": {
         "left": {
@@ -89,7 +89,7 @@
       "heroSection": {
         "greeting": "Merhaba! 👋",
         "intro": "Ben Hande. frontend geliştiriciyim. Sağlam ve ölçeklenebilir ön yüz ürünleri geliştirebilirim. Tanışalım!",
-        "profileImage": "",
+        "profileImage": "profileImage.jpg",
         "socials": [
           {
             "logo": "LinkedIn.svg",
@@ -144,7 +144,7 @@
           "education": "Bayburt Üniversitesi-İnşaat Mühendisliği",
           "role": "frontend"
         },
-        "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illu  In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore.  Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
+        "aboutme": "Yeni beceriler kazanmak ve kendimi yeni zorluklarla sürekli geliştirmek için büyüme zihniyetine sahip, istekli bir ön uç geliştiriciyim.  4 yıl inşaat mühendisi, 3 yıl da muhasebeci olarak çalıştıktan sonra yazılımcı olma ve frontend alanında kendimi geliştirme hayalimi 3 aylık yoğun Workintech frontend geliştirme programını tamamlayarak gerçekleştirmeye karar verdim."
       },
       "projects": {
         "left": {

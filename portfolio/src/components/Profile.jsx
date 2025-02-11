@@ -7,23 +7,25 @@ const Profile = () => {
   const { information, aboutme } = data[language].profile; 
 
   return (
-    <section id="profile" className="p-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-      <h2 className="text-2xl font-bold text-center mb-4">{language === "en" ? "About Me" : "Hakkımda"}</h2>
+    <section id="profile" className="max-w-5xl mx-auto p-8 bg-gary-100 dark:bg-gray-900 text-gray-900 dark:text-white rounded-lg shadow-md">
+      <h2 className="text-3xl font-bold text-center mb-6">{language === "en" ? "Profile" : "Hakkımda"}</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
-          <h3 className="text-lg font-semibold mb-2">{language === "en" ? "Profile Information" : "Profil Bilgileri"}</h3>
-          <ul className="space-y-2">
-            <li><strong>{language === "en" ? "Birthday:" : "Doğum Günü:"}</strong> {information.birthday}</li>
-            <li><strong>{language === "en" ? "Location:" : "Konum:"}</strong> {information.location}</li>
-            <li><strong>{language === "en" ? "Education:" : "Eğitim:"}</strong> {information.education}</li>
-            <li><strong>{language === "en" ? "Role:" : "Rol:"}</strong> {information.role}</li>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Profil Bilgileri Kartı */}
+        <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+          <h3 className="text-lg font-semibold mb-4 text-pink-500">{language === "en" ? "Basic Information" : "Temel Bilgiler"}</h3>
+          <ul className="space-y-3 text-gray-800 dark:text-gray-300">
+            <li><strong>{language === "en" ? "Birthday:" : "Doğum Tarihi:"}</strong> {information.birthday}</li>
+            <li><strong>{language === "en" ? "Location:" : "İkamet Şehri:"}</strong> {information.location}</li>
+            <li><strong>{language === "en" ? "Education:" : "Eğitim Durumu:"}</strong> {information.education}</li>
+            <li><strong>{language === "en" ? "Role:" : "Tercih Ettiği Rol:"}</strong> {information.role}</li>
           </ul>
         </div>
 
-        <div className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
-          <h3 className="text-lg font-semibold mb-2">{language === "en" ? "About Me" : "Hakkımda"}</h3>
-          <p className="text-gray-700 dark:text-gray-300">{aboutme}</p>
+        {/* Hakkımda Bölümü */}
+        <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+          <h3 className="text-lg font-semibold mb-4 text-blue-500">{language === "en" ? "About Me" : "Hakkımda"}</h3>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{aboutme}</p>
         </div>
       </div>
     </section>
