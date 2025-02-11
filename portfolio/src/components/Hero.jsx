@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
 
       {profileImage && (
-        <img src={`/${profileImage}`} className="w-32 h-32 rounded-full border-white mb-6" />
+        <img src={`/${profileImage}`} className="rounded-full border-pink-500 border-4 w-40 h-40 object-cover" />
       )}
 
       <div className="flex gap-4 mb-6">
